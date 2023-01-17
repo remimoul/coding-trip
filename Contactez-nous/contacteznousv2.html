@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coding Trip : Contactez-nous</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="stylecontactv2.css">
+    </head>
+    <body>
+
+        <header>
+            <a href="../page-accueil/projet.html"><img class="logo" src="../image/logo.png"></a>
+
+            <nav>
+                <ul>
+                    <li class="deroulant">
+                        DESTINATION<!-- Début du sous-menu déroulant -->
+                        <ul class="sous1">
+                            <li><a class="pays" href="../Jordanie/jordanie.html">JORDANIE</a></li>
+                            <li><a class="pays" href="../Portugal/portugal.html"> PORTUGAL </a></li>
+                            <li><a class="pays" href="../BoraBora/projet.html">BORA-BORA</a></li>
+                        </ul>
+                    </li> <!-- Fin du sous-menu déroulant -->
+
+                    <li><a class="pays" href="../Tarif/pagetarif.html">TARIFS</a></li>
+                    <li><a class="pays" href="../Contactez-nous/contacteznousv2.html"> CONTACTEZ-NOUS </a></li>
+                </ul>
+            </nav>  <!-- Fin div menu -->
+        </header>
+
+        <section class="bandeau">
+                <br>N'hesitez pas a nous contacter
+                <br>en remplissant le formulaire ci-dessous
+        </section>
+
+        <fieldset>
+            
+            <legend>CONTACTEZ - NOUS</legend>
+
+            <div class="formulaire">
+                <div class="partied">
+                    <div class="perso">
+                        <div class="nommail">
+                            <label for="nom"></label>
+                            <input type="text" name="nom" id="info" placeholder="Nom" required="required" />
+
+                            <label for="email"></label>
+                            <input type="text" name="email" id="info" placeholder="Email" required="required"/>
+                        </div>
+
+                        <div class="prenomphone">
+                            <label for="prenom"></label>
+                            <input type="text" name="prenom" id="info" placeholder="Prénom" required="required" />
+
+                            <label for="phone"></label>
+                            <input type="text" name="phone" id="info" placeholder="Téléphone" required="required"/>
+                        </div>
+                    </div>
+
+                    <div class="date">
+                        <label for="date">Date de départ</label>
+                        <input type="date" name="date" id="date" required="required" />
+                    </div>
+
+                    <div class="depart">
+                        <br><label for="depart">Ville de départ</label>
+                        <select name="pays" id="depart">
+                            <option value="saississez"></option>
+                            <option value="orly">Paris Orly</option>
+                            <option value="cdg">Paris CDG</option>
+                            <option value="lyon">Lyon</option>
+                        </select>
+                    </div>
+
+                    <div class="arrivee">
+                        <br><label for="arrivee">Destination</label>
+                        <select name="pays" id="arrivee">
+                            <option value="saississez"></option>
+                            <option value="borabora">Bora-Bora</option>
+                            <option value="petra">Jordanie</option>
+                            <option value="portugal">Portugal</option>
+                        </select>
+                    </div>
+
+                    <div class="bouton">
+                        <input id="submit" type="submit" value="Envoyer"/>
+                    </div>
+                </div>
+
+                <div class="partieg">
+                    <div class="mess">
+                        <label for="commentaire">Des indications à nous donner ? C'est par ici</label>
+                        <br><textarea rows="23" cols="50"name="commentaire"id="commentaire"></textarea>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    <div class="partie2">
+        <section>
+                <div class="bandeau-text">
+                    <p>
+                        <br>
+                        <br> Besoin d'aide ?
+                        <br> Nos conseillers sont disponibles au
+                        <br>01.30.75.35.52
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                </div>
+        </section>
+
+        
+            <div class="image">
+                <div class="specialiste"><img src="./image/Aurelie.jpg"> <div class="nom-specialiste"> Aurelie</div><br>notre spécialiste de la Jordanie</div>
+                <div class="specialiste"><img src="./image/Remi.jpg"> <div class="nom-specialiste">Remi</div><br>notre spécialiste de Bora-Bora</div>
+                <div class="specialiste"><img src="./image/Julien.jpg"> <div class="nom-specialiste">Julien</div><br>notre spécialiste du Portugal</div>
+            </div>
+        
+    </div>
+
+    <footer>
+
+        <div class="logofoot">
+            <div class="footz">RETROUVEZ NOUS SUR : </div>
+            <div class="logofoot-icons">
+                <a href="http://www.facebook.com" target="_blank"><img class="icon" src="icon/facebook.png" /></a>
+                <a href="http://www.twitter.com" target="_blank"><img class="icon" src="icon/twitter.png" /></a>
+                <a href="http://www.instagram.com" target="_blank"><img class="icon" src="icon/instagram.png" /></a>
+                <a href="http://www.pinterest.com" target="_blank"><img class="icon" src="icon/pinterest.png" /></a>
+                <a href="https://www.youtube.com/watch?v=pwgGpKIzZkY" target="_blank"><img class="icon" src="icon/youtube.png" /></a>
+                <a href="http://www.discord.com" target="_blank"><img class="icon" src="icon/discorde.png" /></a>
+            </div>
+        </div>
+        <div class="newsletter">
+            <form class="foot2">
+                <input class="email" type="email" name="email" id="email" placeholder="Saisir votre email" required="required" />
+                <input class="style_submit" type="submit" value="S'inscrire a notre Newsletter" />
+            </form>
+            <div class="newfoot">
+
+                <div class="tapeur1"> <img class="iconbas" src="icon/carte-bancaire.png" /><p2>Payer en toute sérénité et à votre rythme: CB, 4x ou chèques vacances.</p2></div>
+                <div class="tapeur2"> <img class="iconbas" src="icon/head-hunting.png" /><p2>Des conseillers disponibles avant,pendant et après votre séjour, oui c'est possible !'</p2> </div>
+                <div class="tapeur3"> <img class="iconbas" src="icon/bouee-de-sauvetage.png" /><p2>Un imprévu ? Votre conseiller est là pour le gérer.</p2> </div>
+                <div class="tapeur4"> <img class="iconbas" src="icon/carte-de-visite.png" /><p2>Autant de destinations et d'exprériences uniques, que d'envies de voyage.</p2></div>
+                <div class="tapeur5"> <img class="iconbas" src="icon/lhorloge.png" /> <p2>Parce que vous aimeriez déjà y être, on vous évite de perdre du temps dans vos recherches.</p2></div>
+                <div class="tapeur6"> <img class="iconbas" src="icon/etoile.png" /><p2>Des spécialistes pour chacune de vos évasions...</p2></div>
+
+
+            </div>
+
+
+
+        </div>
+    </footer>
+    </body>
+</html>

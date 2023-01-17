@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'Aquatico';
+    src: url('../Aquatico.ttf.woff') format('woff'), url('../Aquatico.ttf.svg#Aquatico') format('svg'), url('../Aquatico.ttf.eot'), url('../Aquatico.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*LE HEADER !!!!!!!!!!!!!*/
+
+header{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+}
+
+ul{
+    list-style-type:none;
+}
+
+nav {
+    width: 100%;
+    font-family: 'Aquatico', Arial, sans-serif;
+}
+
+.sous1 {
+    width: 250px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none; /*pour enlever les puces des listes*/
+    
+    background-color: white;
+    width:200px;
+    text-align:center;
+
+}
+ul li {
+    list-style: none;
+    float: left;
+    width: 290px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px
+}
+ul li ul li {
+        display :none; /*pour cacher le sous menu - attention au ul li ul li*/
+        clear : both; /*pour annuler le float left plus haut et que la sous liste d'aligne les un en dessous des autres*/
+    }
+
+.pays{
+        text-decoration: none;
+        color : black; 
+    }
+
+ul li:hover ul li {
+        display: block;  /*pour faire apparaitre le sous menu - attention au ul li*/               
+    }
+    ul li:hover {
+        border-bottom: 3px rgb(19, 69, 119) solid; /*pour souligner en rouge le menu*/
+    }
+ ul li ul li:hover {
+    border-bottom:3px rgb(19, 69, 119) solid; /*pour souligner en blanc le sous menu*/
+}
+
+.bandeau {
+    background-color: rgb(19, 69, 119);
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Aquatico', Arial, sans-serif;
+    padding: 50px;
+    margin-top: 6%;
+
+}
+
+/*FIN DU HEADER ����!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* PIED DE PAGE FOOTER*/
+footer {
+    display: flex;
+    background-color: rgb(19, 69, 119);
+    width: 100%;
+    height: 39%;
+    font-family: 'Aquatico', Arial, sans-serif;
+    color: white;
+    margin-top: 2%;
+    flex-direction: column;
+}
+
+.footz {
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    align-items: center;
+}
+
+.icon {
+    width: 2%;
+    text-align: center;
+}
+
+.logofoot, .newsletter {
+    text-align: center;
+}
+
+.logofoot {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+.email {
+    width: 10%;
+    height: 9%;
+    padding: 12px 50px 10px 20px;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    border: none;
+    min-width: 105px;
+}
+
+.style_submit {
+    line-height: 41px;
+    padding: 0px 5px;
+    background-color: #226ED1;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-size: .75rem;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+.icon1 {
+    width: 2%;
+}
+
+.icon2 {
+    width: 1%;
+}
+
+.newsletter {
+    margin-top: 1%;
+}
+
+.logoss {
+    display: flex;
+    margin-left: 1%;
+}
+
+.newfoot {
+    display: flex;
+    margin-top: 1%;
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    text-align: initial;
+    background-color: #184594;
+    font-size: 11px;
+    font-family: 'Arial';
+    flex-wrap: wrap;
+}
+
+.iconbas {
+    width: 42px;
+}
+
+.tapeur1, .tapeur2 {
+    width: 30%;
+    display: flex;
+    margin-left: 3%;
+    padding-top: 1%;
+}
+
+.tapeur4, .tapeur5 {
+    display: flex;
+    margin-left: 3%;
+    width: 30%;
+    padding-top: 1%;
+}
+
+p2 {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.tapeur3, .tapeur6 {
+    width: 30%;
+    margin-left: 4%;
+    display: flex;
+    padding-top: 1%;
+}
+
+/* FIN PIED DE PAGE FOOTER*/
+
+
+
+
+/*kjsqgdkzjqsfhkshflskwhfslkfwhkjsbdkjbqkdjddkjhckjqshbcskj*/
+
+
+
+
+
+/*FAUT PAS AVOIR PEUR DE MA PAGE OOOOOOOOOOOOOOOOOOOOOOO*/
+
+/*DEBUT DE LA PAGE BORA BORA*/
+
+/*POUR LES IMAGES*/
+
+
+.image {
+    margin-top: 5%;
+    color: rgb(19, 69, 119);
+    text-align: justify;
+}
+    
+.image img {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.image img {
+    border: 3px solid rgb(19, 69, 119);
+    border-radius: 10px;
+    margin-left: 100px;  
+    width: 50%;
+}
+    
+.image:hover img {
+    /* L'image est grossie de 25% */
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+/*FIN DES IMAGES*/
+
+h1,p{
+    font-family: 'Aquatico' , Arial, sans-serif;
+    margin-top: 5%;
+    text-indent: 10%;
+    font-size: clamp(1rem, 4vw, 2rem);
+}
+
+/*css part 1********************************/
+
+.part1{
+    display : flex; 
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.text1 {
+
+    font-size: 1em;
+    width:50%;
+    text-align : justify; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*css part 2********************************/
+
+.part2 {
+    display : flex; 
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 4%;
+
+}
+
+.text2{
+    font-size: 1em;
+    width:50%;
+    text-align : justify; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*css part 3*********************************/
+
+.part3 {
+    display : flex; 
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.text3 {
+    font-size: 1em;
+    width:50%;
+    text-align : justify; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*FIN DE LA PAGE BORA BORA*/
+
+/*css boutton 'je r�serve'*********************/
+
+/*css boutton 'je réserve'**/
+
+.bouton {
+    display: block;
+    padding: 5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 10px;
+    font-family: 'Aquatico'; 
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: rgb(19, 69, 119);
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.bouton:hover{    /*css animation boutton 'je réserve'*/
+    animation: animbouton 0.5s linear forwards;
+}
+
+@keyframes animbouton {
+    0% { background-color: rgb(19, 69, 119);
+        width: 100px;
+        color : white;
+    }
+    100% { 
+        background-color: rgb(75, 131, 187);
+        width: 200px;
+        color:yellow; 
+        } 
+    }
+ /* fin css boutton 'je réserve'*/
